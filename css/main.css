@@ -1,0 +1,7 @@
+html{
+  box-sizing: border-box;
+  font-famlily: 'Contrail One' , cursive;
+}
+*, *::before, *::after{
+  box-sizing; inherit;
+}
