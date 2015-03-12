@@ -1,7 +1,36 @@
 html{
   box-sizing: border-box;
-  font-famlily: 'Contrail One' , cursive;
+  font-family: 'Contrail One' , cursive;
 }
 *, *::before, *::after{
   box-sizing; inherit;
+}
+
+.head-left {
+  width: 125px;
+  position: absolute;
+  top: 19px
+  left: 35px
+}
+.head-right {
+  width: 125px;
+  position: absolute;
+  top: 19px;
+  right: 35px;
+}
+.brain {
+  width: 46px
+  position: absolute;
+  right: 137px;
+  top: 60px;
+}
+.body {
+  width: 320px;
+  position: relative;
+  top: 57px;
+}
+.robot {
+  width: 320px;
+  position: relative;
+  margin: 0 auto;
 }
