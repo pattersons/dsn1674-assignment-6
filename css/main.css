@@ -9,8 +9,8 @@ html{
 .head-left {
   width: 125px;
   position: absolute;
-  top: 19px
-  left: 35px
+  top: 19px;
+  left: 35px;
 }
 .head-right {
   width: 125px;
@@ -19,7 +19,7 @@ html{
   right: 35px;
 }
 .brain {
-  width: 46px
+  width: 46px;
   position: absolute;
   right: 137px;
   top: 60px;
@@ -29,8 +29,23 @@ html{
   position: relative;
   top: 57px;
 }
-.robot {
+.exterminate {
   width: 320px;
   position: relative;
   margin: 0 auto;
+}
+p{
+  background-color: #1a2230;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+}
+header{
+  background-color: #2c3950;
+  height: 242px;
+}
+body{
+  margin: 0;
 }
